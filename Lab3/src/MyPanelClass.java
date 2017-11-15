@@ -23,10 +23,6 @@ public class MyPanelClass extends JPanel {
 		int width = x2 - x1;
 		int height = y2 - y1;
 
-		/*
-		 * int xx1 = this.getWidth() - myInsets.right; int yy1 = myInsets.top; int xx2 =
-		 * myInsets.bottom; int yy2 = this.getHeight() - myInsets.left;
-		 */
 		int xx2 = (this.getWidth() - myInsets.right) / 2;
 		int yy2 = this.getHeight() / 2;
 		int xx1 = myInsets.bottom;
@@ -63,17 +59,6 @@ public class MyPanelClass extends JPanel {
 		 * g.setColor(Color.LIGHT_GRAY); g.fillOval((this.getWidth() - ovalWidth) / 2,
 		 * (this.getHeight() - ovalHeight) / 2, 55, 55);
 		 */
-		/*Polygon p = new Polygon();
-		p.addPoint(x1 + 5, y1 + 25);
-		p.addPoint(x1 + 20, y1 + 10);
-		p.addPoint(x1 + 35, y1 + 25);
-		p.addPoint(x1 + 25, y1 + 25);
-		p.addPoint(x1 + 25, y1 + 45);
-		p.addPoint(x1 + 15, y1 + 45);
-		p.addPoint(x1 + 15, y1 + 25);
-		g.setColor(Color.YELLOW);
-		g.fillPolygon(p);
-*/
 		
 		Polygon tria = new Polygon();
 		tria.addPoint(0, 0);
